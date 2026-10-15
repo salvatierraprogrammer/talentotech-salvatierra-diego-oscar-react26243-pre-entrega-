@@ -1,0 +1,7 @@
+.cuadro {
+    flex: auto;
+    border: 2px solid red;
+}
+.text{
+    color:red;
+}
