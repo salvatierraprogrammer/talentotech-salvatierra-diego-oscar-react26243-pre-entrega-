@@ -1,14 +1,15 @@
-import React from 'react'
-import styles from "./TarjetaUsuario.module.css"
+
+import styles from "./TarjetaUsuario.module.css";
+
 const TarjetaUsuario = ({ nombre, cargo, email, imagen }) => {
   return (
-    <div className="tarjeta-usuario">
+    <div className={styles.tarjetaUsuario}>
       <img src={imagen} alt={nombre} />
       <h4>{nombre}</h4>
-      <p className="cargo">{cargo}</p>
+      <p className={styles.cargo}>{cargo}</p>
       <p>{email}</p>
     </div>
-  )
-}
+  );
+};
 
-export default TarjetaUsuario
+export default TarjetaUsuario;

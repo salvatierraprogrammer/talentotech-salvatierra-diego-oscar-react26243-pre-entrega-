@@ -1,0 +1,20 @@
+[
+  {
+    "nombre": "Juan Peralta",
+    "cargo": "Coordinador de Viajes",
+    "email": "juan@gmail.com",
+    "imagen": "https://i.pravatar.cc/150?img=12"
+  },
+  {
+    "nombre": "María González",
+    "cargo": "Asesora de Turismo",
+    "email": "maria@gmail.com",
+    "imagen": "https://i.pravatar.cc/150?img=47"
+  },
+  {
+    "nombre": "Pedro Ramírez",
+    "cargo": "Guía Turístico",
+    "email": "pedro@gmail.com",
+    "imagen": "https://i.pravatar.cc/150?img=11"
+  }
+]

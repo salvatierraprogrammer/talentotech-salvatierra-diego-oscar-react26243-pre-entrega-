@@ -1,0 +1,19 @@
+
+.contenedorUsuarios {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+  padding: 30px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  .contenedorUsuarios {
+    padding: 15px;
+    gap: 15px;
+  }
+}
