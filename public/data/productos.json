@@ -1,23 +1,30 @@
 [
-{
-"id": 1,
-"nombre": "Camara Instantánea",
-"precio": 85000,
-"stock":22,
-"imagen": "https://unsplash.com"
-},
-{
-"id": 2,
-"nombre": "Camara Nikon",
-"precio": 97500,
-"stock":2,
-"imagen": "https://unsplash.com"
-},
-{
-"id": 3,
-"nombre": "Monitor Curvo",
-"precio": 110000,
-"stock":2,
-"imagen": "https://unsplash.com"
-}
+  {
+    "id": 1,
+    "nombre": "Excursión al Tigre",
+    "precio": 25000,
+    "stock": 10,
+    "imagen": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 2,
+    "nombre": "Día de campo",
+    "precio": 40000,
+    "stock": 8,
+    "imagen": "https://media-cdn.tripadvisor.com/media/photo-s/14/60/94/fe/dia-de-campo.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "City Tour Buenos Aires",
+    "precio": 18000,
+    "stock": 15,
+    "imagen": "https://images.unsplash.com/photo-1589909202802-8f4aadce1849?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 4,
+    "nombre": "Escapada a San Antonio de Areco",
+    "precio": 35000,
+    "stock": 6,
+    "imagen": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=800&q=80"
+  }
 ]

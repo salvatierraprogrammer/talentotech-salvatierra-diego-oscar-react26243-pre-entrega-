@@ -1,7 +1,89 @@
 .cuadro {
-    flex: auto;
-    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px;
+    margin: 15px;
+    border: 2px solid #2d6a4f;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-.text{
-    color:red;
+
+.cuadro:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+.cuadro h3 {
+    margin: 0;
+    color: #1b4332;
+    font-size: 20px;
+    text-align: center;
+}
+
+.text {
+    color: #d62828;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cuadro p {
+    margin: 5px 0;
+}
+
+.cuadro button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #2d6a4f;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.cuadro button:hover {
+    background-color: #1b4332;
+}
+
+.cuadro button:active {
+    transform: scale(0.97);
+}
+.imagen {
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.botones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+}
+
+.botones button:first-child {
+    width: 100%;
+}
+
+.botones button:not(:first-child) {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    font-size: 20px;
+}
+
+.botones p {
+    min-width: 25px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
 }
